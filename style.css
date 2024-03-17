@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: linear-gradient(to right, #3DA48C, #3B9F8A, #337C7C, #2C5A6F, #243761, #1C1554);
+}
+
+h1 {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	text-align: center;
+	color: #000000;
+	font-size: 250%;
+	padding-top: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+	text-shadow: antiquewhite 1px 0px 10px;
+}
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 18px;
+	color: antiquewhite;
+	display: block;
+	padding: 15px 25px;
+	text-align: center;
+	background-color: #1C1554;
+	border: solid #2C5A6F 8px;
+	border-style: ridge;
+}
+nav a:hover {
+	background-color: #DEF2C8;
+	color: #1C1554;
+}
+
+
+footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-size: 110%;
+	padding-bottom: 2%;
+}
+
+h2 {
+	padding-top: 3%;
+	color: antiquewhite;
+	text-shadow: #F3F98A 1px 0px 15px;
+	text-align: center;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 170%;
+}
+
+p {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	text-align: left;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin: auto;
+	color: antiquewhite;
+	font-size: 115%;
+	text-shadow: #000000 1px 1px 4px;
+}
+
+.centered-list {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	display: table;
+	margin: auto;
+	font-size: 130%;
+	color: antiquewhite;
+	text-shadow: #000000 1px 1px 4px;
+	text-align: center;
+}
+
+.centered-list ul {
+	display: inline-block;
+	text-align: left;
+}
+
+.d-list-seasons {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	margin: auto;
+	font-size: 115%;
+	color: antiquewhite;
+	text-shadow: #000000 1px 1px 4px;
+	text-align: center;
+}
+
+.d-list-seasons dl {
+	display: inline-block;
+	text-align: left;
+}
+
+.d-list-seasons dt {
+	font-size: 125%;
+}
+
+h3 {
+	text-align: center;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	padding-left: 5%;
+	padding-right: 5%;
+	margin: auto;
+	color: antiquewhite;
+	font-size: 115%;
+	text-shadow: #000000 1px 1px 4px;
+}
+
+.img1 {
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	padding-bottom: 3%;
+}
+.static-img {
+	height: 50%;
+	width: 35%;
+}
+
+.img2 {
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	padding-bottom: 3%;
+	padding-right: 5%;
+}
+.clickable-img {
+	height: 125%;
+	width: 116%;
+}
